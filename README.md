@@ -2,7 +2,7 @@
 A Retrieval-Augmented Generation (RAG) powered chatbot that allows you to upload PDFs, build an index, and ask natural language questions answered from your documents. 
 Built with Streamlit, LangChain, and ChromaDB.
 
-# Project Outline
+## Project Outline
 RAG-CHATBOT/
 │── .venv/ # Virtual environment
 │── src/
