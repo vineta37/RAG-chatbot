@@ -14,17 +14,17 @@ RAG-CHATBOT/
 │── .gitignore
 │── README.md
 
-# Create and activate virtual environment
+## Create and activate virtual environment
 python -m venv .venv
 .venv\Scripts\activate     
 
-# Install dependencies
+## Install dependencies
 pip install langchain chromadb openai sentence-transformers streamlit PyPDF2 python-dotenv tiktoken faiss-cpu
 
-# Check environment
+## Check environment
 python src/scripts/env_check.py
 
-# Run the app
+## Run the app
 streamlit run src/app.py 
 Local URL: http://localhost:8501
 Network URL: http://192.168.1.7:8501
